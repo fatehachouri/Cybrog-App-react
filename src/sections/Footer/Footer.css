@@ -1,0 +1,14 @@
+footer p{
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+    font-weight: 300;
+}
+footer p a{
+    color: #fff;
+    transition: all 0.3s;
+    padding-left: 3px;
+}
+footer p a:hover{
+    color: #ec6090;
+}

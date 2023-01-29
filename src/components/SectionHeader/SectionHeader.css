@@ -1,0 +1,9 @@
+.section-header h4{
+    font-size: 36px;
+    font-weight: var(--font-weight-bold);
+}
+.section-header h4 em {
+    font-style: normal;
+    color: var(--color-primary);
+    font-size: 15px;
+}
