@@ -8,15 +8,15 @@ const Header = () => {
   return (
     <div className="navbar navbar-expand-md  navbar-dark cyborg-navbar ">
         <div className="container">
-            <a href="/" className="navbar-brand">
+            <Link to="/" className="navbar-brand">
                 <img src={logo} alt='logo'/>
-            </a>
+            </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="mainmenu">
                 <ul className="navbar-nav ms-auto">
-                    <NavItem>
+                    <NavItem >
                         <Link to='/' className="nav-link">Home</Link>
                         </NavItem>
                     <NavItem>
